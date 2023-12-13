@@ -1,0 +1,54 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
+.glide/
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+# JetBrains IDEs
+.idea/
+
+# VSCode
+.vscode/
+
+# Mac OS X
+.DS_Store
+
+# Go build
+bin/
+pkg/
+
+# Log files
+*.log
+
+# Temporary files
+tmp/
+
+# Environment files
+.env
+.env.*
+
+# Generated files
+dist/
+
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.s
+
+# Folders & files related to Go Modules
+go.sum
+go.mod
+
+# Binary Output
+/bin/
